@@ -2,3 +2,9 @@
 h2, p {
   font-family: 'Roboto', bold;
 }
+
+/* Add these styles to your CSS file */
+.text-blur {
+  filter: blur(2px);
+}
+
