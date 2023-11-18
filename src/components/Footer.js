@@ -1,34 +1,49 @@
-// src/Footer.js
-import React from 'react';
+import React from "react";
 import { FaWhatsapp, FaInstagram, FaLinkedinIn, FaTelegram, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className=" text-white py-6">
-      <div className="container mx-auto text-center">
-        <p>Powered by PHICSIT</p>
-        <div className="flex justify-center mb-2">
-          <a href="https://www.instagram.com/phicsit.in/" target="_blank" rel="noreferrer">
-            <FaInstagram className="social-icon" />
-          </a>
-          <a href="https://t.me/phicsitofficial" target="_blank" rel="noreferrer">
-            <FaTelegram className="social-icon" />
-          </a>
-          <a href="https://chat.whatsapp.com/BuZvZcJhk2J9x4eHfk8eGw" target="_blank" rel="noreferrer">
-            <FaWhatsapp className="social-icon" />
-          </a>
-          <a href="https://www.linkedin.com/company/phicsit/" target="_blank" rel="noreferrer">
-            <FaLinkedinIn className="social-icon" />
-          </a>
-          <a href="https://twitter.com/PHICSIT" target="_blank" rel="noreferrer">
-            <FaTwitter className="social-icon" />
-          </a>
+    <footer>
+      <div className="footer-content">
+        <div className="ft-logo ft-box">
+          <img src="../ft-logo.png" alt="Logo" />
+          <p className="pow-by">
+            Powered by PHICSIT
+          </p>
         </div>
-        <p className="text-gray-500">&copy; SoftCodeHack, 2023</p>
-        <p>Made with 💙 by Team SoftCodeHack</p>
+        <div className="social ft-box">
+          <h2 className="footer-title">Connect With Us</h2>
+          <div className="social-links">
+            <a href="https://www.instagram.com/phicsit.in/" target="_blank" rel="noreferrer">
+              <FaInstagram className="social-icon" />
+            </a>
+            <a href="https://t.me/phicsitofficial" target="_blank" rel="noreferrer">
+              <FaTelegram className="social-icon" />
+            </a>
+            <a href="https://chat.whatsapp.com/BuZvZcJhk2J9x4eHfk8eGw"
+              target="_blank" rel="noreferrer">
+              <FaWhatsapp className="social-icon" />
+            </a>
+            <a href="https://www.linkedin.com/company/phicsit/" target="_blank" rel="noreferrer">
+              <FaLinkedinIn className="social-icon" />
+            </a>
+            <a href="https://twitter.com/PHICSIT" target="_blank" rel="noreferrer">
+              <FaTwitter className="social-icon" />
+            </a>
+          </div>
+        </div>
+        <div className="contact-us ft-box">
+          <h2 className="footer-title">Contact Us</h2>
+          <p className="contact-us-email"><a href="mailto:phicsit.community@gmail.com" target="_blank" rel="noreferrer">phicsit.community@gmail.com</a></p>
+        </div>
+      </div>
+      <div className="footer-end">
+        <p className="copyright">Made with ❤️ by the Team Soft CodeHack</p>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
+
+
