@@ -1349,3 +1349,9 @@ footer {
     opacity: 1
   }
 }
+
+
+.text-blur {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
