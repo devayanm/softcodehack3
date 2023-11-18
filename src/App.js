@@ -5,16 +5,16 @@ import Home from './components/Home';
 import Schedule from './components/Schedule';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { BrowserRouter , Routes , Route } from 'react-router-dom'
+// import Home from '../src/pages/Home'
 
 const App = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Home />
-      <Schedule />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element = {<Home/>}></Route>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
