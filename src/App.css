@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.text-blur {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
