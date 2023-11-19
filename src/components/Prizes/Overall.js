@@ -58,11 +58,11 @@ const Overall = () => {
                   ""
                 )}
               </div>
-              <div className="col-span-9 text-xl font-semibold ml-16">
+              <div className="col-span-9 text-xl text-whitesmoke font-semibold ml-16">
                 {element.prize}
                 <div className="font-light text-base">Worth Prizes</div>
                 <button
-                  className="font-extralight bg-gray-200 rounded-full text-xs py-[2px] px-[5px] hover:bg-gray-300"
+                  className="font-extralight bg-gray-100 rounded-full text-black text-xs py-[2px] px-[5px] hover:bg-gray-300"
                   onClick={() => modalPopup(element)}
                 >
                   Click to know more
@@ -74,6 +74,7 @@ const Overall = () => {
         <div className="col-span-6">
           <img
             src="https://electrothon.nith.ac.in/prize.png"
+            alt=""
             className="w-fill h-fill"
           />
         </div>

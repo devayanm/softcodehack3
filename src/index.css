@@ -4,13 +4,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 body {
   margin: 0;
-  /* font-family: 'Arimo', sans-serif; */
-  font-family: "Poppins", sans-serif;
+  padding: 0;
+  /* overflow: hidden; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.mlh-badge {
+  position: relative;
+  top: 50px;
 }

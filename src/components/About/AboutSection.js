@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import LoopGif from '../../assets/loop.gif';
+import LoopGif from '../../assets/img/loop.gif';
+import '../../App.css';
 
 const AboutSection = () => {
   const [currentChar, setCurrentChar] = useState(0);

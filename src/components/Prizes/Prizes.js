@@ -39,7 +39,7 @@ const Prizes = () => {
         <div className="flex col-span-12 border-b-[1px] border-gray-200">
           {list.map((element, index) => (
             <div
-              className="col-span-3 text-base uppercase font-bold px-8 py-2 bg-transparent  hover:text-gray-700 cursor-pointer"
+              className="col-span-3 text-whitesmoke text-base uppercase font-bold px-8 py-2 bg-transparent  hover:text-gray-700 cursor-pointer"
               style={
                 (display[0] === true && index === 0) ||
                 (display[1] === true && index === 1) ||
