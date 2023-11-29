@@ -39,10 +39,11 @@ const AboutSection = () => {
             ))}
           </h1>
 
+          
           {[0, 1, 2, 3].map((index) => (
             <p
               key={index}
-              className={`text-lg text-justify mb-2 ${
+              className={`text-lg text-justify mb-2 cursor-auto font-bold ${
                 hoveredIndex !== null && hoveredIndex !== index ? 'text-blur' : ''
               }`}
               onMouseEnter={() => handleParagraphHover(index)}
@@ -77,9 +78,6 @@ const AboutSection = () => {
             </p>
           ))}
 
-          <button className='bg-white text-[#000000] w-full md:w-[200px] rounded-md font-bold my-6 mx-auto md:mx-0 py-3 transition-all duration-300 hover:bg-[#00df9a] hover:text-white'>
-            Know More
-          </button>
         </div>
       </div>
     </div>

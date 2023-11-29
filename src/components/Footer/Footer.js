@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -24,11 +24,13 @@ const Footer = () => {
                     <div>
                         <h2 className="text-xl font-bold">Follow Us</h2>
                         <ul className="flex space-x-4 mt-2 justify-center">
-                            <li><a href="#"><FontAwesomeIcon icon={faFacebook} className="hover:text-blue-300 text-2xl" /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faTwitter} className="hover:text-blue-300 text-2xl" /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faInstagram} className="hover:text-blue-300 text-2xl" /></a></li>
+                            <li><a href="#"><FontAwesomeIcon icon={faFacebook} className="hover:text-green-300 text-2xl" /></a></li>
+                            <li><a href="#"><FontAwesomeIcon icon={faTwitter} className="hover:text-red-300 text-2xl" /></a></li>
+                            <li><a href="#"><FontAwesomeIcon icon={faInstagram} className="hover:text-pink-300 text-2xl" /></a></li>
+                            <li><a href="#"><FontAwesomeIcon icon={faLinkedin} className="hover:text-green-300 text-2xl" /></a></li>
                         </ul>
                     </div>
+                    
                 </div>
                 <div className="mt-8 text-center text-sm">
                     &copy; {new Date().getFullYear()} Soft CodeHack 3.0. All rights reserved. <br />
