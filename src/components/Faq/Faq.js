@@ -1,6 +1,7 @@
 // FAQ.js
 import React, { useState } from 'react';
 
+
 const FAQ = () => {
     const faqs = [
         {
